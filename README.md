@@ -42,4 +42,4 @@ $ npm run build
 
 ## Troubleshooting
 
-For running dev build you will need <a href="https://nodejs.org/en/">Node.js</a>.
+For running dev build or building the project you will need <a href="https://nodejs.org/en/">Node.js</a>.
