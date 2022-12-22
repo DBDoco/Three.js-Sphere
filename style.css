@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    color:white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+li a{
+    font-weight: 500;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:1rem;
+}
+
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.heading{
+    font-size: 2rem;
+    position:absolute;
+    color:white;
+    top:75%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -75%);
+}
