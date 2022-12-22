@@ -50,3 +50,21 @@ nav ul{
     z-index: 2;
     transform: translate(-50%, -75%);
 }
+
+@media (max-width: 576px) {
+    .heading{
+        font-size: 1.7rem;
+    }
+
+    nav{
+        padding: 2rem 3rem;
+    }
+
+    li {
+        font-size: 0.7rem;
+    }
+
+    nav a{
+        font-size: 0.7rem;
+    }
+}
